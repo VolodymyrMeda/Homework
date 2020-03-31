@@ -15,7 +15,7 @@ def ebayapiexample():
         request = {'keywords': 'Stephen King The Shining'}
         response = api.execute('findItemsAdvanced', request)
 
-        return response.dict()['searchResult']['item'][2]
+        return response.dict()['searchResult']['item'][0]
 
     except ConnectionError as err:
         return err.response.dict()
