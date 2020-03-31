@@ -13,9 +13,9 @@ def ebayapiexample():
         api = Finding(config_file='ebay.json', appid='Volodymy-Expendit-PRD-3196809ca-9c1b019a')
 
         request = {'keywords': 'Stephen King The Shining'}
-        response = api.execute('findCompletedItems', request)
+        response = api.execute('findItemsAdvanced', request)
 
-        return response.dict()['searchResult']['item'][0]
+        return response.dict()['searchResult']['item'][2]
 
     except ConnectionError as err:
         return err.response.dict()
