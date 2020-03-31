@@ -19,3 +19,7 @@ def ebayapiexample():
 
     except ConnectionError as err:
         return err.response.dict()
+
+
+if __name__ == '__main__':
+    print(ebayapiexample())
