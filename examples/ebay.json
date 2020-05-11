@@ -2,24 +2,24 @@
 	"name": "ebay_api_config",
 	"api.sandbox.ebay.com": {
 		"compatibility": 719,
-		"appid": "Volodymy-Expendit-PRD-3196809ca-9c1b019a",
-		"certid": "PRD-196809cac9d3-1f02-492f-a620-239b",
-		"devid": "9304c73b-56bd-4ab3-b1b0-c2285a71f165",
-		"token": "AgAAAA**AQAAAA**aAAAAA**OwWDXg**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6MFkoKnCJKLpwqdj6x9nY+seQ**XEEGAA**AAMAAA**fKX4jPOgiGWkt2hDeZDQyXYdeLR6oD7wVl0gEWVP3RZJqDDQKvz5epTZrP1QPemC44uUDSrCv/rTJmKwq0TCxI/S1VYqHmuG2pF1pJfb2KMM0VacNyfI6/AkbZ0S4C59lN/glCPjO35o3jWTL/dHUAXI07VlRl8WG3fMprd6WvCgEuS8i3CrgcCCqv3GLl1gCbdKIrWz4pzL7v7ANnnppEM99fJVBigrGanPmCH7azKTPa3WHrgv6SiKmAZXuphBpzn/AR0DEBag/N2bwWIz0yiVUGJw6V/LMdPRN3QZr2RjkvAFqiyUlPnbuyKDv8MwFRUDCI9sIcQowzhGRBsjTvAezBFm1rLkb06jDHlvUVAnxgZHNONoG2j7qG5j86ZGyAnUkUkerXMsr0Qp3pAZzXDKfMFWkRp7KqzNVsjyRWDg7qR4gC3dA3j1lPDsiTdHR3VRlBvSoDdlw8jEPQhqnsqGVm0ZOh2VpTkDkoto39k8Fh57Yst0ZcBo9WOng+gqPEuRKgcVMp04HXJJgp3qyBbMYww4F0bXkgzSssxfYnMqHvccpOqNT/Le1aY44kf0bYbcvBzSiEN5z0XDBixP2FuDTP1W56T4kaE6Qm6J+s1J1NldCfS2lOzwmVzJr7u7XTasMZ+9aStTlbF6+F4zY/J/qLqBt6g8vJ0DKZbYNiDX07Rv7A0KUUg4XSL1sTIvEKx+KgfeoDUutNLl01qB4GBemt0DNaOFo/MaVWAhpskBInQK6lEd3MkTBVRUNjiv"
+		"appid": "*",
+		"certid": "*",
+		"devid": "*",
+		"token": "*"
 	},
 	"api.ebay.com": {
 		"compatibility": 719,
-		"appid": "Volodymy-Expendit-PRD-3196809ca-9c1b019a",
-		"certid": "PRD-196809cac9d3-1f02-492f-a620-239b",
-		"devid": "9304c73b-56bd-4ab3-b1b0-c2285a71f165",
-		"token": "AgAAAA**AQAAAA**aAAAAA**OwWDXg**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6MFkoKnCJKLpwqdj6x9nY+seQ**XEEGAA**AAMAAA**fKX4jPOgiGWkt2hDeZDQyXYdeLR6oD7wVl0gEWVP3RZJqDDQKvz5epTZrP1QPemC44uUDSrCv/rTJmKwq0TCxI/S1VYqHmuG2pF1pJfb2KMM0VacNyfI6/AkbZ0S4C59lN/glCPjO35o3jWTL/dHUAXI07VlRl8WG3fMprd6WvCgEuS8i3CrgcCCqv3GLl1gCbdKIrWz4pzL7v7ANnnppEM99fJVBigrGanPmCH7azKTPa3WHrgv6SiKmAZXuphBpzn/AR0DEBag/N2bwWIz0yiVUGJw6V/LMdPRN3QZr2RjkvAFqiyUlPnbuyKDv8MwFRUDCI9sIcQowzhGRBsjTvAezBFm1rLkb06jDHlvUVAnxgZHNONoG2j7qG5j86ZGyAnUkUkerXMsr0Qp3pAZzXDKfMFWkRp7KqzNVsjyRWDg7qR4gC3dA3j1lPDsiTdHR3VRlBvSoDdlw8jEPQhqnsqGVm0ZOh2VpTkDkoto39k8Fh57Yst0ZcBo9WOng+gqPEuRKgcVMp04HXJJgp3qyBbMYww4F0bXkgzSssxfYnMqHvccpOqNT/Le1aY44kf0bYbcvBzSiEN5z0XDBixP2FuDTP1W56T4kaE6Qm6J+s1J1NldCfS2lOzwmVzJr7u7XTasMZ+9aStTlbF6+F4zY/J/qLqBt6g8vJ0DKZbYNiDX07Rv7A0KUUg4XSL1sTIvEKx+KgfeoDUutNLl01qB4GBemt0DNaOFo/MaVWAhpskBInQK6lEd3MkTBVRUNjiv"
+		"appid": "*",
+		"certid": "*",
+		"devid": "*",
+		"token": "*"
 	},
 	"svcs.ebay.com": {
-		"appid": "Volodymy-Expendit-PRD-3196809ca-9c1b019a",
+		"appid": "*",
 		"version": "1.0.0"
 	},
 	"open.api.ebay.com": {
-		"appid": "Volodymy-Expendit-PRD-3196809ca-9c1b019a",
+		"appid": "*",
 		"version": 671
 	}
 }
