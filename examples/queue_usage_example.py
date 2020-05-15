@@ -8,12 +8,14 @@ def queue_example():
     queue = LinkedQueue()
 
     assert queue.isEmpty() is True
+
     assert len(queue) == 0  # length of the queue is 0
 
     for element in range(10):
         queue.add(element)
 
     assert len(queue) == 10  # length of the queue is 10
+
     assert queue.isEmpty() is False
 
     print(queue.pop())  # element 0 is deleted as it was added first
@@ -25,4 +27,3 @@ def queue_example():
 
 
 queue_example()
-

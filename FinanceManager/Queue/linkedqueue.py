@@ -1,5 +1,5 @@
-from examples.Queue.node import Node
-from examples.Queue.abstractcollection import AbstractCollection
+from Queue.node import Node
+from Queue.abstractcollection import AbstractCollection
 
 
 class LinkedQueue(AbstractCollection):
