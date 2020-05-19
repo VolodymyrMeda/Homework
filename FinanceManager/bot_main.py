@@ -6,7 +6,7 @@ from emoji import emojize
 import os
 import datetime
 
-TOKEN = '1154006871:AAGCBVC5bzmx4mZ2ftOwFzn99Lk6-bFFEA0'
+TOKEN = '*'
 base_url = f'https://api.telegram.org/bot{TOKEN}/getUpdates'
 bot = telebot.TeleBot(TOKEN)
 
