@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>QueueLinked package &#8212; Finance Manager 1.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="queuelinked-package">
+<h1>QueueLinked package<a class="headerlink" href="#queuelinked-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-QueueLinked.abstractcollection">
+<span id="queuelinked-abstractcollection-module"></span><h2>QueueLinked.abstractcollection module<a class="headerlink" href="#module-QueueLinked.abstractcollection" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="QueueLinked.abstractcollection.AbstractCollection">
+<em class="property">class </em><code class="sig-prename descclassname">QueueLinked.abstractcollection.</code><code class="sig-name descname">AbstractCollection</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sourceCollection</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.abstractcollection.AbstractCollection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>An abstract collection implementation.</p>
+<dl class="py method">
+<dt id="QueueLinked.abstractcollection.AbstractCollection.isEmpty">
+<code class="sig-name descname">isEmpty</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.abstractcollection.AbstractCollection.isEmpty" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-QueueLinked.linkedqueue">
+<span id="queuelinked-linkedqueue-module"></span><h2>QueueLinked.linkedqueue module<a class="headerlink" href="#module-QueueLinked.linkedqueue" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="QueueLinked.linkedqueue.LinkedQueue">
+<em class="property">class </em><code class="sig-prename descclassname">QueueLinked.linkedqueue.</code><code class="sig-name descname">LinkedQueue</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sourceCollection</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.linkedqueue.LinkedQueue" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#QueueLinked.abstractcollection.AbstractCollection" title="QueueLinked.abstractcollection.AbstractCollection"><code class="xref py py-class docutils literal notranslate"><span class="pre">QueueLinked.abstractcollection.AbstractCollection</span></code></a></p>
+<p>A link-based queue implementation</p>
+<dl class="py method">
+<dt id="QueueLinked.linkedqueue.LinkedQueue.add">
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.linkedqueue.LinkedQueue.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds item to the rear of the queue</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="QueueLinked.linkedqueue.LinkedQueue.clear">
+<code class="sig-name descname">clear</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.linkedqueue.LinkedQueue.clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes self become empty</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="QueueLinked.linkedqueue.LinkedQueue.peek">
+<code class="sig-name descname">peek</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.linkedqueue.LinkedQueue.peek" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the item at the front of the queue.
+Precondition: the queue is not empty.
+Raises: KeyError if the stack is empty</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="QueueLinked.linkedqueue.LinkedQueue.pop">
+<code class="sig-name descname">pop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.linkedqueue.LinkedQueue.pop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes and returns the item at the front of the queue.
+Precondition: the queue is not empty.
+Raises: KeyError if the queue is empty.
+Postcondition: the front item is removed from the queue</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="QueueLinked.linkedqueue.LinkedQueue.remove">
+<code class="sig-name descname">remove</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.linkedqueue.LinkedQueue.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes and returns the item at index,
+where index ranges from 0 (the front) to size - 1 (the rear).
+Precondition: 0 &lt;= index &lt; size of queue</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-QueueLinked.node">
+<span id="queuelinked-node-module"></span><h2>QueueLinked.node module<a class="headerlink" href="#module-QueueLinked.node" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="QueueLinked.node.Node">
+<em class="property">class </em><code class="sig-prename descclassname">QueueLinked.node.</code><code class="sig-name descname">Node</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">next</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#QueueLinked.node.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Nodes for singly linked structures.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-QueueLinked">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-QueueLinked" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Finance Manager</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Volodymyr Meda.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/rst/QueueLinked.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

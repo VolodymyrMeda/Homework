@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Main package &#8212; Finance Manager 1.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="main-package">
+<h1>Main package<a class="headerlink" href="#main-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-Main.data_main">
+<span id="main-data-main-module"></span><h2>Main.data_main module<a class="headerlink" href="#module-Main.data_main" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="Main.data_main.DataOperations">
+<em class="property">class </em><code class="sig-prename descclassname">Main.data_main.</code><code class="sig-name descname">DataOperations</code><a class="headerlink" href="#Main.data_main.DataOperations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for working with Ebay API and data received</p>
+<dl class="py method">
+<dt id="Main.data_main.DataOperations.data_excel_repr">
+<code class="sig-name descname">data_excel_repr</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Main.data_main.DataOperations.data_excel_repr" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uses the queue with data prepared in
+order to generate an excel file</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Main.data_main.DataOperations.data_pdf_repr">
+<code class="sig-name descname">data_pdf_repr</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Main.data_main.DataOperations.data_pdf_repr" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uses the queue with data prepared in
+order to generate a PDF file</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Main.data_main.DataOperations.get_json_data">
+<code class="sig-name descname">get_json_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">keyword</span></em>, <em class="sig-param"><span class="n">price_from</span></em>, <em class="sig-param"><span class="n">price_to</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Main.data_main.DataOperations.get_json_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method returns a dictionary with data collected</p>
+<p>keyword: str - the name of the product user wants to find
+price_from: str - start of the price range
+price_to: str - end of the price range</p>
+<p>return: dict</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Main.data_main.DataOperations.get_proper_data">
+<code class="sig-name descname">get_proper_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">raw_result</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Main.data_main.DataOperations.get_proper_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Works with data received and gets data
+that is needed for further actions</p>
+<p>raw_result: dict - dictionary with data
+received from API</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="main-bot-main-module">
+<h2>Main.bot_main module<a class="headerlink" href="#main-bot-main-module" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Finance Manager</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Volodymyr Meda.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/rst/Main.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
