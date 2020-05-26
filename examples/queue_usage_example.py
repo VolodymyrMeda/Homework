@@ -22,6 +22,3 @@ def queue_example():
 
     assert len(queue) == 9  # length of the queue is 9
     assert queue.isEmpty() is False
-
-
-queue_example()
